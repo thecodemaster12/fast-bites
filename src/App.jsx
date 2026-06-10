@@ -233,13 +233,13 @@ const App = () => {
           </div>
         </div>
 
-        <div className="menu-wrapper flex flex-col md:flex-row max-w-5xl w-full min-h-96">
-          <div className="menu-left flex-1 p-3 rounded bg-primary">
+        <div className="menu-wrapper rounded-md overflow-hidden flex flex-col md:flex-row max-w-5xl w-full min-h-96">
+          <div className="menu-left flex-1 p-3 bg-primary">
             <div className="heading">
               <h2 className="title uppercase text-center text-6xl font-bold mb-4 font-pt-sans">
                 menu
               </h2>
-              <p className="data-time mb-4 text-center md:text-left">
+              <p className="data-time mb-4 text-center">
                 Everyday from <span className="text-white">10:00am - 10:00pm</span> 
               </p>
             </div>
