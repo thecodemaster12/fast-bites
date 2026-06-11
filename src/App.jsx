@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import burgerMenu from "../data/data.js";
 import BurgerIcon from "./components/BurgerIcon.jsx";
