@@ -267,10 +267,11 @@ const App = () => {
             <div className="menu-card space-y-4">
               <div className="menu-card-image max-w-[400px] mx-auto rounded-md object-cover overflow-hidden">
                 <img
+                  key={currentSelectedItem.image} 
                   src={currentSelectedItem.image}
                   draggable="false"
                   loading="lazy"
-                  className="w-full select-none"
+                  className="w-full select-none transition-opacity"
                   alt={currentSelectedItem.name}
                 />
               </div>
