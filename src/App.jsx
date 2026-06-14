@@ -399,7 +399,7 @@ const App = () => {
           </div>
         </div>
 
-        <footer className="bg-black text-white w-full py-2 px-4 flex-grow flex justify-between items-center">
+        {/* <footer className="bg-black text-white w-full py-2 px-4 flex-grow flex justify-between items-center">
           <div className="">           
             <p className="text-center">
                {new Date().getFullYear()} FastBites - All rights reserved
@@ -413,7 +413,7 @@ const App = () => {
               </svg>
             </a></li>
           </ul>
-        </footer>
+        </footer> */}
       </div>
     </>
   );
